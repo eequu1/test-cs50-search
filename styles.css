@@ -1,0 +1,28 @@
+.n_search
+{
+    text-align: center;
+}
+
+
+.advanced_search
+{
+    background-color: blue;
+    color: white;
+}
+
+#navbar
+{
+    text-align: right;
+    list-style-type: none;
+}
+
+#searchbar
+{
+    border-radius: 8px;
+}
+
+
+ul
+{
+    list-style-type: none;
+}
