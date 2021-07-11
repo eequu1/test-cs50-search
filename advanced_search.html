@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Advanced Search</title>
+        <title>Advaned Search</title>
         <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta charset="UTF-8">
     </head>
 
     <body>
-        <div id="navbar">
-            <ul>
-                <li class="nav-item"><a class="nav-link" href="index.html">Search</a></li>
-                <li class="nav-item"><a class="nav-link" href="image_search.html">Image Search</a></li>
-                <li class="nav-item"><a class="nav-link" href="advanced_search.html">Advanced Search</a></li>
+        <header>        
+        <nav> 
+            <ul id="navbar">
+                <img id="advanced_lougle" src="lougle-logo.png" alt="Lougle">
+                <li class="nav-link" id="advanced-search"><a href="advanced_search.html">Advanced Search</a></li>
+                <li class="nav-link" id="image-search"><a href="image_search.html">Image Search</a></li>
+                <li class="nav-link" id="search"><a href="index.html">Search</a></li>
             </ul>
-        </div>
+        </nav>
+        </header>
 
         <main>
+        <div class="advanced_options">
+        <h3 style="color:orangered;">Advanced Search</h3>
         <p>Find pages with...</p>
         <form action="https://google.com/search">
             <div> all these words:
@@ -31,8 +38,8 @@
             </div>
             <div> none of these words:
             <input type="text" name="as_eq">
-            
-            </div>
+        </div>
+        
         <div>
         <input class="advanced_search" type="submit" value="Advanced Search">
         </div>

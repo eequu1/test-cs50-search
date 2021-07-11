@@ -1,28 +1,74 @@
+body {
+    margin:  0;
+    padding:  0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .n_search
 {
     text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
+.advanced_options
+{
+ 
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top:  40px;
+}
 
 .advanced_search
 {
     background-color: blue;
     color: white;
+    margin:  20px;
 }
 
-#navbar
+#navbar li
 {
-    text-align: right;
-    list-style-type: none;
+    float: right;
+    display:  inline-block;
+    padding:  8px;
 }
 
 #searchbar
 {
-    border-radius: 8px;
+    border-radius: 30px;
+    width:  450px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#lougle-logo
+{
+    width: 50%;
+    height:  50%;
+}
+
+#advanced_lougle
+{
+    width: 7%;
+    height:  7%;
 }
 
 
 ul
 {
     list-style-type: none;
+}
+
+
+.buttons {
+    text-align:  center;
+    padding-top: 30px;
+    font-size:  20px;
+    margin-bottom: 200px;
 }
