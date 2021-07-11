@@ -1,31 +1,41 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
     <head>
         <title>Search</title>
         <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta charset="UTF-8">
     </head>
 
     <body>
-        <div id="navbar">
-            <ul>
-                <li class="nav-item"><a class="nav-link" href="index.html">Search</a></li>
-                <li class="nav-item"><a class="nav-link" href="image_search.html">Image Search</a></li>
-                <li class="nav-item"><a class="nav-link" href="advanced_search.html">Advanced Search</a></li>
+        <header>
+        <nav> 
+            <ul id="navbar">
+                <li class="nav-link" id="advanced-search"><a href="advanced_search.html">Advanced Search</a></li>
+                <li class="nav-link" id="image-search"><a href="image_search.html">Image Search</a></li>
+                <li class="nav-link" id="search"><a href="index.html">Search</a></li>
             </ul>
-        </div>
+        </nav>
+        </header>
 
         <main>
         <div class="n_search">
-        <div> LOUGLE </div>
+        <div> 
+        <img id="lougle-logo" src="lougle-logo.png" alt="Lougle">
+        </div>
+
         <form action="https://google.com/search">
-            <input type="text" name="q" id="searchbar" placeholder="Search for whatever">
-            <div>
+            <input type="text" name="q" id="searchbar" placeholder="🔍Search for whatever">
+        </form>
+
+        <div class="buttons">
             <input type="submit" value="Google Search">
             <input type="submit" btnI="I" value="I'm feeling lucky">
             <input name="btnI" type="hidden" value="I">
-            </div>
-        </form>
         </div>
+        
         </main>
     </body>
 </html>
